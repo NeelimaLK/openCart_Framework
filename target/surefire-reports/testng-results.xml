@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T15:59:07 IST" name="Suite" finished-at="2023-01-03T15:59:24 IST" duration-ms="17333">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T15:59:07 IST" name="Test" finished-at="2023-01-03T15:59:24 IST" duration-ms="17333">
+      <class name="testCases.LoginPageTest">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:07 IST" name="driverSetUp" finished-at="2023-01-03T15:59:15 IST" duration-ms="7699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="test_Loging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:16 IST" name="test_Loging" data-provider="LoginData" finished-at="2023-01-03T15:59:18 IST" duration-ms="1977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Loging -->
+        <test-method signature="test_Loging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:18 IST" name="test_Loging" data-provider="LoginData" finished-at="2023-01-03T15:59:20 IST" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Loging -->
+        <test-method signature="test_Loging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:20 IST" name="test_Loging" data-provider="LoginData" finished-at="2023-01-03T15:59:22 IST" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Loging -->
+        <test-method signature="test_Loging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:22 IST" name="test_Loging" data-provider="LoginData" finished-at="2023-01-03T15:59:23 IST" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Loging -->
+        <test-method signature="test_Loging(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageTest@4e91d63f]" started-at="2023-01-03T15:59:23 IST" name="test_Loging" data-provider="LoginData" finished-at="2023-01-03T15:59:24 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Loging -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
